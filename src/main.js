@@ -3,13 +3,15 @@ import peliculas from './data/ghibli/ghibli.js';// Se importa la data de studio 
 
 
 const botonVolverPrincipal = document.getElementById("principal");// Se declara la variable botonVolverPrincipal, y se llama al elemento del DOM por su Id.
-botonVolverPrincipal.addEventListener("click", paginaPrincipal);// Se crea un evento al dar click se dirige a la funcion pagina principal
+if (botonVolverPrincipal !== null) {
+    botonVolverPrincipal.addEventListener("click", paginaPrincipal);// Se crea un evento al dar click se dirige a la funcion pagina principal
+    window.addEventListener("load", mostrarPeliculas(peliculas.films));// Se agrega el evento escucha para que cuando se cargue la pagina films se muestren las cards
+}
 
 function paginaPrincipal() {
     location.href = "index.html";// Se agrega a la funcion principal la localizacion para direccionar 
 }
 
-window.addEventListener("load", mostrarPeliculas(peliculas.films));// Se agrega el evento escucha para que cuando se cargue la pagina films se muestren las cards
 function mostrarPeliculas(peliculas) {
     let carSeccion = document.querySelector(".cards");// Se usa querySelector para encontrar la primera coincidencia de cards
     let cards = "";
@@ -32,7 +34,7 @@ function mostrarPeliculas(peliculas) {
         card += '</div>';
         card += '</footer>';
         card += '</article>';
-        console.log("esto hace el forEach en card: "+card);
+        //console.log("esto hace el forEach en card: "+card);
         cards += card;
     });
     carSeccion.innerHTML = cards;
