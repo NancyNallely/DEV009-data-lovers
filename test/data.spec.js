@@ -1,6 +1,21 @@
-
+/**
+ * @jest-environment jsdom
+ */
 // importamos el objeto 'data', que contiene las funciones
 import data from '../src/data.js';
+
+
+describe('data', () => {
+  describe('data.paginaPrincipal', () => {
+    it('deberia regresar a la pagina principal', () => {
+      const mockLocation = { href: 'index.html' };
+      Object.defineProperty(window, 'location', { value: mockLocation });
+      data.paginaPrincipal();
+      expect(window.location.href).toBe('index.html');
+    });
+  });
+});
+
 
 describe('data', () => {
   describe('data.OrdenaPeliculasAz', () => {
@@ -115,3 +130,65 @@ describe('data', () => {
     });
   });
 });
+
+describe('data', () => {
+  describe('data.OrdenaPeliculasProductor', () => {
+    it('debería retornar el arreglo completo de películas', () => {
+      const arrayPeliculas = [
+        { producer: "Hayao Miyazaki", title: "My Neighbor Totoro" },
+        { producer: "Hayao Miyazaki", title: "Kiki's Delivery Service" },
+        { producer: "Isao Takahata", title: "Castle in the Sky" },
+      ];
+
+      const expected = [
+        { producer: "Hayao Miyazaki", title: "My Neighbor Totoro" },
+        { producer: "Hayao Miyazaki", title: "Kiki's Delivery Service" }
+      ];
+
+      const resultado = data.OrdenaPeliculasProductor(arrayPeliculas, "Hayao Miyazaki");
+      expect(resultado).toEqual(expected);
+    });
+
+    it('debería retornar un arreglo filtrado por el nombre del productor', () => {
+      const arrayPeliculas = [
+        { producer: "Hayao Miyazaki", title: "My Neighbor Totoro" },
+        { producer: "Hayao Miyazaki", title: "Kiki's Delivery Service" },
+      ];
+
+      const resultado = data.OrdenaPeliculasProductor(arrayPeliculas, "Hayao Miyazaki");
+      expect(resultado).toEqual(arrayPeliculas);
+    });
+  });
+});
+
+
+describe('data', () => {
+  describe('data.OrdenaPeliculasDirector', () => {
+    it('debería retornar el arreglo completo de películas', () => {
+      const arrayPeliculas = [
+        { director: "Hiroyuki Morita", title: "The Cat Returns" },
+        { director: "Hiromasa Yonebayashi", title: "The Secret World of Arrietty" },
+        { director: "Hiromasa Yonebayashi", title: "When Marnie Was There" },
+      ];
+
+      const expected = [
+        { director: "Hiromasa Yonebayashi", title: "The Secret World of Arrietty" },
+        { director: "Hiromasa Yonebayashi", title: "When Marnie Was There" },
+      ];
+
+      const resultado = data.OrdenaPeliculasDirector(arrayPeliculas, "Hiromasa Yonebayashi");
+      expect(resultado).toEqual(expected);
+    });
+
+    it('debería retornar un arreglo filtrado por el nombre del director', () => {
+      const arrayPeliculas = [
+        { director: "Hiromasa Yonebayashi", title: "The Secret World of Arrietty" },
+        { director: "Hiromasa Yonebayashi", title: "When Marnie Was There" },
+      ];
+
+      const resultado = data.OrdenaPeliculasDirector(arrayPeliculas, "Hiromasa Yonebayashi");
+      expect(resultado).toEqual(arrayPeliculas);
+    });
+  });
+});
+
