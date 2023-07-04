@@ -78,10 +78,10 @@ function mostrarPeliculas(peliculas) {
     card += '</div><!-- .card-content -->';
     card += '<footer>';
     card += '<div class="post-meta">';
-    card += '<span class="timestamp"><i></i>Score: ' + pelicula.rt_score + '</span>';
-    card += '<span class="comments"><i></i>Año: ' + pelicula.release_date + '</span>';
-    card += '<span class="comments"><i>></i>Productor: ' + pelicula.producer + '</span>';
-    card += '<span class="comments"><i></i>Director: ' + pelicula.director + '</span>';
+    card += '<span class="timestamp">Score: ' + pelicula.rt_score + '</span><br>';
+    card += '<span class="comments">Año: ' + pelicula.release_date + '</span><br>';
+    card += '<span class="comments">Productor: ' + pelicula.producer + '</span><br>';
+    card += '<span class="comments">Director: ' + pelicula.director + '</span><br>';
     card += '</div>';
     card += '</footer>';
     card += '</article>';

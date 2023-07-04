@@ -119,12 +119,9 @@ video {
 
 body {
   font-family: "Montserrat";
-  background-image: url("./multimedia/ghibli-studio1.gif");
+  background: url(./multimedia/Fondos/fondo4.jpg) no-repeat fixed;
   background-size: cover;
-  object-fit: no-repeat center center fixed;
-  margin: 0;
   z-index: -1;
-  background-position: top left;
 
 }
 
@@ -211,8 +208,8 @@ body {
   border-radius: 9rem 5rem 3rem 3rem;
   text-align: center;
   font-size: 1.4rem;
-  border: inset;
-  background-image: url(./multimedia/fondog.png);
+  border: none;
+  background-image: url(./multimedia/nubes.gif);
   background-size: 90%;
   font-weight: bold;
   font-family: Ysabeau SC;
@@ -229,9 +226,8 @@ body {
   width: 12rem;
   height: 5rem;
   text-align: center;
-  border-block-color: rgb(136, 224, 109);
-  border: inset;
-  background-image: url(./multimedia/fondog.png);
+  border: none;
+  background-image: url(./multimedia/nubes.gif);
   background-size: 90%;
   font-family: Ysabeau SC;
 }
@@ -290,14 +286,14 @@ footer {
   margin: .5rem 0 0;
   min-height: 1.9rem;
   font-size: 1.2rem;
-  color: rgb(146, 134, 134);
+  color: rgb(65, 116, 184);
   font-weight: 700;
   background-color: #cadce4;
 
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: rgb(241, 233, 233);
   text-align: justify;
   background-color: rgb(19, 137, 184);
@@ -317,83 +313,83 @@ p {
 }
 
 .category__1 {
-  background-color: #50c6db;
+  background-color: #b94086a1;
 }
 
 .category__2 {
-  background-color: #d4e067;
+  background-color: #e7a1459d;
 }
 
 .category__3 {
-  background-color: #51bb7b;
+  background-color: #4197089f;
 }
 
 .category__4 {
-  background-color: #f47820;
+  background-color: #0e49a198;
 }
 
 .category__5 {
-  background-color: #8350a0;
+  background-color: #ca6b1291;
 }
 
 .category__6 {
-  background-color: #63bd5a;
+  background-color: #c4c11f9c;
 }
 
 .category__7 {
-  background-color: #db4bd4;
+  background-color: #440f4185;
 }
 
 .category__8 {
-  background-color: #7369cf;
+  background-color: #44b83994;
 }
 
 .category__9 {
-  background-color: #beab3a;
+  background-color: #ca8eaf8e;
 }
 
 .category__10 {
-  background-color: #798f3f;
+  background-color: #0d416488;
 }
 
 .category__11 {
-  background-color: #be5e6b;
+  background-color: #dd102c94;
 }
 
 .category__12 {
-  background-color: #5ba09a;
+  background-color: #dfdc168c;
 }
 
 .category__13 {
-  background-color: #247c12;
+  background-color: #c989a086;
 }
 
 .category__14 {
-  background-color: #8f8d9c;
+  background-color: #6c5bdd86;
 }
 
 .category__15 {
-  background-color: #5bc4ad;
+  background-color: #da3a098c;
 }
 
 .category__16 {
-  background-color: #5a1880;
+  background-color: #38b3339a;
 }
 
 .category__17 {
-  background-color: #e09e68;
+  background-color: #bd6a278a;
 }
 
 .category__18 {
-  background-color: #5f963f;
+  background-color: #e2350a7e;
 }
 
 .category__19 {
-  background-color: #6db9a9;
+  background-color: #f38bd496;
 }
 
 .category__20 {
-  background-color: #e7a957;
+  background-color: #1c9e9894;
 }
 
 .post-meta {
@@ -437,9 +433,8 @@ p {
     width: 8rem;
     height: 2rem;
     text-align: center;
-    border-block-color: rgb(136, 224, 109);
-    border: inset;
-    background-image: url(./multimedia/fondog.png);
+    border: none;
+    background-image: url(./multimedia/nubes.gif);
     background-size: 90%;
     font-family: Ysabeau SC;
   }
@@ -450,8 +445,8 @@ p {
     border-radius: 9rem 5rem 3rem 3rem;
     text-align: center;
     font-size: 1.2rem;
-    border: inset;
-    background-image: url(./multimedia/fondog.png);
+    border: none;
+    background-image: url(./multimedia/nubes.gif);
     background-size: 90%;
     font-weight: bold;
     font-family: Ysabeau SC;
@@ -501,9 +496,8 @@ p {
     width: 10rem;
     height: 3rem;
     text-align: center;
-    border-block-color: rgb(136, 224, 109);
-    border: inset;
-    background-image: url(./multimedia/fondog.png);
+    border: none;
+    background-image: url(./multimedia/nubes.gif);
     background-size: 90%;
     font-family: Ysabeau SC;
   }
@@ -513,8 +507,9 @@ p {
     background: ghostwhite;
     border-radius: 9rem 5rem 3rem 3rem;
     text-align: center;
-    font-size: 1.5rem border: inset;
-    background-image: url(./multimedia/fondog.png);
+    font-size: 1.5rem; 
+    border:none;
+    background-image: url(./multimedia/nubes.gif);
     background-size: 90%;
     font-weight: bold;
     font-family: Ysabeau SC;
@@ -566,9 +561,8 @@ p {
     width: 13rem;
     height: 4rem;
     text-align: center;
-    border-block-color: rgb(136, 224, 109);
-    border: inset;
-    background-image: url(./multimedia/fondog.png);
+    border: none;
+    background-image: url(./multimedia/nubes.gif);
     background-size: 90%;
     font-family: Ysabeau SC;
   }
@@ -579,8 +573,8 @@ p {
     border-radius: 9rem 5rem 3rem 3rem;
     text-align: center;
     font-size: 1.8rem;
-    border: inset;
-    background-image: url(./multimedia/fondog.png);
+    border: none;
+    background-image: url(./multimedia/nubes.gif);
     background-size: 90%;
     font-weight: bold;
     font-family: Ysabeau SC;
