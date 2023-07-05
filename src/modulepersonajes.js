@@ -11,38 +11,45 @@ if (selectMovie !== null & peopleElement !== null) {
 
       let movieTitle ="";
       let movieCharacters = [];
+      let numberCharacters = "";
 
       switch (selectMovieValue) {
       case "0":
         movieTitle = (ghibli.films[0].title);
         movieCharacters = ghibli.films[0].people;
+        numberCharacters = ghibli.films[0].people.length;
         break;
       case "1":
         movieTitle = (ghibli.films[1].title);
         movieCharacters = ghibli.films[1].people;
+        numberCharacters = ghibli.films[1].people.length;
         break;
       case "2":
         movieTitle = (ghibli.films[2].title);
         movieCharacters = ghibli.films[2].people;
+        numberCharacters = ghibli.films[2].people.length;
         break;
       case "3":
         movieTitle = (ghibli.films[3].title);
         movieCharacters = ghibli.films[3].people;
+        numberCharacters = ghibli.films[3].people.length;
         break;
       case "4":
         movieTitle = (ghibli.films[4].title);
         movieCharacters = ghibli.films[4].people;
+        numberCharacters = ghibli.films[4].people.length;
         break;
       case "5":
         movieTitle = (ghibli.films[5].title);
         movieCharacters = ghibli.films[5].people;
+        numberCharacters = ghibli.films[5].people.length;
         break;
       default:
         movieTitle = "";
         movieCharacters = [];
       }     
       const charactersList = createCharactersList(movieCharacters);   
-      const html = movieTitle ? "<h2>" + movieTitle + "</h2>" + charactersList :"Selecciona una pelicula ";
+      const html = movieTitle ? "<h2>" + movieTitle + "<br> This movie has " + numberCharacters + " characters</br></h2>" + charactersList :"Selecciona una pelicula ";
       peopleElement.innerHTML = html;
     });
   });
