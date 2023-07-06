@@ -116,15 +116,15 @@ video {
   width: 100%;
   height: 100%;
 }
-
-#fondoPaginaPrincipal {
+/*Se edita el body por el nombre de su clase*/
+#fondoPaginaAnimaciones {
   font-family: "Montserrat";
   background: url(./multimedia/Fondos/fondo4.jpg) no-repeat fixed;
   background-size: cover;
   z-index: -1;
 
 }
-
+/*Se edita el body de la pag curiosidades por el nombre de su clase*/
 #pagCuriosidades{
   font-family: "Ysabeau SC";
   background: url(./multimedia/Fondos/fondo7.jpg) no-repeat fixed;
@@ -132,13 +132,14 @@ video {
   z-index: -1;
 
 }
-
+/*Se editan los p con las curiosidades por el nombre de su clase*/
 .detalles{
   font-size: 40px;
   color: rgb(212, 212, 201);
   display: grid;
-  
 }
+
+/*Se edita la imagen por el nombre de su clase*/
 .kiki{
   width: 500px;
   height: 500px;
@@ -146,30 +147,39 @@ video {
 }
 
 
+/*Se edita la imagen por el nombre de su clase*/
 .princesa{
   width: 500px;
   height: 500px;
   margin: 0 auto;
 }
 
+
+/*Se edita la imagen por el nombre de su clase*/
 .castillo{
   width: 500px;
   height: 500px;
   margin: 0 auto;
 }
 
+
+/*Se edita la imagen por el nombre de su clase*/
 .luciernagas{
   width: 500px;
   height: 500px;
   margin: 0 auto;
 }
 
+
+/*Se edita la imagen por el nombre de su clase*/
 .chihiro{
   width: 500px;
   height: 500px;
   margin: 0 auto;
 }
 
+
+/*Se edita la imagen por el nombre de su clase*/
 .totoro{
   width: 600px;
   height: 500px;
@@ -177,6 +187,8 @@ video {
 }
 /***************************          Header           ********************************/
 
+
+/*Se edita el titulo principal de animaciones por el nombre de su clase*/
 .tituloPrincipal {
   font-family: Dancing Script;
   min-height: .3vh;
@@ -236,6 +248,8 @@ video {
   }
 }
 
+
+/*Se edita el header por el nombre de su clase*/
 .temaPeli {
   display: flex;
   justify-content: space-evenly;
@@ -245,6 +259,8 @@ video {
 
 /***************************          Barra Navegacion  ********************************/
 
+
+/*Se edita el nav por el nombre de su clase*/
 .navegacion {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -252,6 +268,8 @@ video {
   grid-gap: 1rem;
 }
 
+
+/*Se edita el boton volver a pag principal por el nombre de su id*/
 #principal {
   color: #110d03;
   background: ghostwhite;
@@ -267,6 +285,8 @@ video {
   height: 5rem;
 
 }
+
+/*Se editan los botones de curiosidades y volver a films por el nombre de su id*/
 #curiosidades, #volverFilms {
   color: #110d03;
   background: ghostwhite;
@@ -284,6 +304,7 @@ video {
 }
 
 
+/*Se edita el selector de animaciones por el nombre de su clase*/
 .selector {
   font-size: 1.4rem;
   color: rgb(17, 2, 2);
@@ -301,6 +322,7 @@ video {
 /***************************           Cards            *******************************/
 
 
+/*Se edita la seccion contenedora de todas las cards por el nombre de su clase*/
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -308,6 +330,8 @@ video {
   grid-gap: 1rem;
 }
 
+
+/*Se edita la card por el nombre de su clase*/
 .card {
   border: 2px solid #e7e7e7;
   border-radius: 4px;
@@ -321,6 +345,7 @@ video {
   color: #5d5e5e;
 }
 
+/*Se edita la imagen de cada card por el nombre de su etiqueta*/
 img {
   display: block;
   border: 0;
@@ -328,15 +353,15 @@ img {
   height: auto;
 }
 
+/*Se editan todas las img que tengan el nombre de esta clase imegen*/
 .imagen img {
   fill: #c7c4c4;
   padding: 1.5rem;
   height: 300px;
 }
 
-
+/*Se edita el contenido de la tarjeta por el nombre de su clase*/
 .card-content {
-  font-size: .75rem;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -347,6 +372,7 @@ img {
   flex: 1;
 }
 
+/*Se edita el pie de pagina de las cards por el nombre de su etiqueta*/
 footer {
   border-top: 0.1rem solid #5b8eb8;
   margin: .5rem 0 0;
@@ -358,6 +384,7 @@ footer {
 
 }
 
+/*Se edita el estilo de la etiqueta p que tiene la clase descripcion*/
 .description {
   font-size: 1.4rem;
   color: rgb(241, 233, 233);
@@ -365,6 +392,7 @@ footer {
   background-color: rgb(19, 137, 184);
 }
 
+/*Se edita el estilo de la etiqueta p que tiene la clase category, que es el titulo y fondo del titulo*/
 .category {
   font-family: Ysabeau SC;
   position: absolute;
@@ -378,6 +406,7 @@ footer {
   text-transform: uppercase;
 }
 
+/*Se edita el estilo de la etiqueta p que tiene la clase category 1, unicamente cambia el fondo de colores*/
 .category__1 {
   background-color: #b94086a1;
 }
@@ -458,17 +487,18 @@ footer {
   background-color: #1c9e9894;
 }
 
+/*Se edita el margen del div contenedor del footer por el nombre de su clase*/
 .post-meta {
   margin-top: .5rem;
 }
 
-.comments {
-  margin-left: .5rem;
-}
+
 
 /* Diseño de movil */
 @media screen and (min-width: 321px) and (max-width: 480px) {
 
+  
+/*Se edita el nav por el nombre de su clase*/
   .navegacion {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -477,7 +507,7 @@ footer {
     justify-items: center;
   }
 
-
+ /*Se edita el boton volver a pag principal por el nombre de su id*/
   .tituloPrincipal {
     font-family: Dancing Script;
     min-height: .3vh;
@@ -491,6 +521,7 @@ footer {
     margin-top: 5vh;
   }
 
+  /*Se edita el selector de animaciones por el nombre de su clase*/
   .selector {
     font-size: 1.2rem;
     color: rgb(17, 2, 2);
@@ -505,6 +536,7 @@ footer {
     font-family: Ysabeau SC;
   }
 
+  /*Se edita el boton volver a pag principal por el nombre de su id*/
   #principal {
     color: #110d03;
     background: ghostwhite;
@@ -522,6 +554,7 @@ footer {
 
   }
 
+  /*Se edita la seccion contenedora de todas las cards por el nombre de su clase*/
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(138px, 1fr));
@@ -533,6 +566,7 @@ footer {
 /* Diseño portatil*/
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
+  /*Se edita el nav por el nombre de su clase*/
   .navegacion {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -541,6 +575,8 @@ footer {
     justify-items: center;
   }
 
+  
+  /*Se edita el boton volver a pag principal por el nombre de su id*/
   .tituloPrincipal {
     font-family: Dancing Script;
     min-height: .3vh;
@@ -554,6 +590,7 @@ footer {
     margin-top: 5vh;
   }
 
+   /*Se edita el selector de animaciones por el nombre de su clase*/
   .selector {
     font-size: 1.7rem;
     color: rgb(17, 2, 2);
@@ -568,6 +605,7 @@ footer {
     font-family: Ysabeau SC;
   }
 
+  /*Se edita el boton volver a pag principal por el nombre de su id*/
   #principal {
     color: #110d03;
     background: ghostwhite;
@@ -585,6 +623,7 @@ footer {
 
   }
 
+  /*Se edita la seccion contenedora de todas las cards por el nombre de su clase*/
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(186px, 1fr));
@@ -598,6 +637,7 @@ footer {
 /* Diseño escritorio*/
 @media screen and (min-width: 769px) and (max-width: 1200px) {
 
+  /*Se edita el nav por el nombre de su clase*/
   .navegacion {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -606,6 +646,7 @@ footer {
     justify-items: center;
   }
 
+    /*Se edita el boton volver a pag principal por el nombre de su id*/
   .tituloPrincipal {
     font-family: Dancing Script;
     min-height: .3vh;
@@ -619,6 +660,8 @@ footer {
     margin-top: 5vh;
   }
 
+  
+   /*Se edita el selector de animaciones por el nombre de su clase*/
   .selector {
     font-size: 1.9rem;
     color: rgb(17, 2, 2);
@@ -633,6 +676,7 @@ footer {
     font-family: Ysabeau SC;
   }
 
+  /*Se edita el boton volver a pag principal por el nombre de su id*/
   #principal {
     color: #110d03;
     background: ghostwhite;
@@ -650,6 +694,7 @@ footer {
 
   }
 
+    /*Se edita la seccion contenedora de todas las cards por el nombre de su clase*/
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
