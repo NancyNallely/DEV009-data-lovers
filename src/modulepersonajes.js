@@ -62,7 +62,7 @@ function createCharactersList(characters) {
   let charactersListHTML = '<div class="name-image">';
   characters.forEach(function(character) {
     charactersListHTML += '<div class="contenedor"' +
-                '<h3><strong>' + character.name + '</strong>' + character.gender + '</h3>' +
+                '<h3>' + character.name + ' (' + character.gender + ') </h3>' +
               '<ul>' +'<img src=' + character.img + '/>' +
                   '<li>Age: ' + character.age + '</li>' +
                   '<li>Hair Color: ' + character.hair_color + '</li>' +

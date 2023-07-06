@@ -2,18 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 
-body {
-  background:#6688AE;
-  
+html {
+  background: url(https://cdn.wallpapersafari.com/78/96/2WKct1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  background-attachment: fixed;
 }
 
 h1{
-  color:#F9F8DC;
+  color:rgba(46, 82, 132, 0.955);
   padding: 0rem;
   font-family: 'Dancing script', cursive;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 100;
   text-align: center;
+  text-shadow: .1rem .1rem .1rem rgb(77, 75, 75);
 }
 
 .movies-list {
@@ -56,38 +60,42 @@ h2{
   text-align: center;
   color: rgb(37, 37, 37);
   font-weight: 100;
+  text-shadow: .1rem .1rem .1rem #3f3f3fa9;
+  background-color: rgba(255, 228, 196, 0.179);
+  backdrop-filter: blur(4.5px);
+ padding: .5rem;
 }
 .contenedor{
   font-family: 'Ysabeau SC', sans-serif;
+  backdrop-filter: blur(4px);
   background: #dcdcdb6e;
   display: inline-grid;
-  height: 450px;
+  height: 350px;
   width: 300px;
   margin: 1rem;
+  padding: 1rem;
   border-radius: .25rem;
+  font-weight: bold;
 }
 ul{
   list-style: none;
+  font-size: 1.5rem;
 }
 
 .name-image{ 
-  margin: 1em -5em 5em 1em;
+  margin: 1em 1em 4em 1em;
   list-style: none;
   text-align: center;
 }
  img{
-  margin: -5em 1em -1em 1em;
-  max-height: 220px;
+  margin: -2em 2em -1em 1em;
+  max-height: 200px;
   padding: 1rem;
-  
  }
- 
-h3 {
-  font-weight: bold;
-}
 
 li {
   list-style: none;
   border: #2e3130;
   text-align: center;
+  font-size: 1.2rem;
 }
