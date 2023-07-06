@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 
-html {
+html {/*estilo del fondo*/
   background: url(https://cdn.wallpapersafari.com/78/96/2WKct1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,26 +10,26 @@ html {
   background-attachment: fixed;
 }
 
-h1{
+h1{ /*titulo de la pagina*/
   color:rgba(46, 82, 132, 0.955);
   padding: 0rem;
   font-family: 'Dancing script', cursive;
   font-size: 3.5rem;
   font-weight: 100;
   text-align: center;
-  text-shadow: .1rem .1rem .1rem rgb(77, 75, 75);
+  text-shadow: .1rem .1rem .2rem rgb(77, 75, 75);
 }
+.byMovie {/*subtitulo by Movies*/
+  margin: -2rem 1rem 1rem 1rem;
+ }
 
-.movies-list {
+.movies-list {/*contenedor de botones*/
    font-family:'Ysabeau SC', sans-serif ;
    font-weight: bold;
    text-align: center;
  }
- .byMovie {
-  margin: -2rem 1rem 1rem 1rem;
- }
-
-button {
+ 
+button {/*estilo de botones*/
   margin: .2rem;
   display: inline-grid;
   background-image: url(https://64.media.tumblr.com/dbba40f6fe111de35363bf7d16de69df/4629bd3bfc1ff56c-79/s540x810/ebf9e5abe8d4322dbfd82005fdeff9b1951e9f1b.jpg);
@@ -47,7 +47,7 @@ button {
   border-radius: 3px;
 }
 
-button:active{
+button:active{/*estilo al presionar el boton*/
   transform: translate(0,0.3rem);
   box-shadow: 0.5rem .5rem 1rem #8a315e;
 }
@@ -65,7 +65,7 @@ h2{
   backdrop-filter: blur(4.5px);
  padding: .5rem;
 }
-.contenedor{
+.contenedor{ /*contenedor de tarjetas de personajes*/
   font-family: 'Ysabeau SC', sans-serif;
   backdrop-filter: blur(4px);
   background: #dcdcdb6e;
@@ -77,6 +77,12 @@ h2{
   border-radius: .25rem;
   font-weight: bold;
 }
+.contenedor:hover{/*al pasar el cursor cambiara el color de la tarjeta*/
+background-color: rgba(58, 116, 196, 0.647);
+backdrop-filter: blur(4.5px);
+transition-delay: 0.18s;
+}
+
 ul{
   list-style: none;
   font-size: 1.5rem;
