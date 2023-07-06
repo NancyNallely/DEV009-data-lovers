@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
 
-video {
+video { /*video de la pagina principal*/
     object-fit: cover;
     position: sticky;
     top: 0;
@@ -17,14 +15,14 @@ video {
     opacity: 0.7;
   }
 
-  .contenido {
+  .contenido {/*contenedor de elementos y textos*/
     display: block;
     margin: -40rem 0 0 0 ;
     padding: 1rem;
     width: auto;
     height: auto;
 }
-  header {
+  header {/*encabezado titulo y subtitulo */
     background-color: #3ea4cf;
     border-radius: .5rem;
     text-align: center;
@@ -33,7 +31,7 @@ video {
     margin: 0 auto;
     width: 35rem;
   }
-  h1{
+  h1{/*titulo de la pagina*/
     color:#F9F8DC;
     padding: 1rem;
     font-family: 'Dancing script', cursive;
@@ -41,7 +39,7 @@ video {
     font-weight: 100;
   }
 
-  h5 {
+  h5 {/*subtitulo de la pagina*/
     color: #E6D6BF;
     margin-top: -2.8rem;
     padding: .5rem;
@@ -50,13 +48,13 @@ video {
     font-weight: 100;
     text-shadow: .1rem .1rem .1rem rgba(0, 0, 0, 0.5);
   }
-  .botones {
+  .botones { /*contenedor de botones*/
     display: block;
     align-content: center;
     justify-content: center;
   }
 
-  button {
+  button {/*estilo de los botones*/
     cursor: pointer;
     margin: 0 auto;
     display: block;
@@ -78,12 +76,12 @@ video {
     outline: none;
     transition: all 0.15s;
   }
-  button:hover{
-    filter:invert(.7);
+  button:hover{/*al pasar el cursor cambia el estilo del boton*/
+    filter: brightness(130%);
     box-shadow: 0.5rem .5rem 1rem #8a315e;
   }
 
-  footer{
+  footer{/*nombres de las creadoras*/
     width: 600px;
     height: 8vh;
     font-family: 'Ysabeau SC', sans-serif;

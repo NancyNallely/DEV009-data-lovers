@@ -60,7 +60,7 @@ function createCharactersList(characters) {
     return "<p>No se encontraron personajes para esta película.</p>";
   }//en caso de que la pelicula no tenga personajes para mostrar, se dara este mensaje
 
-  let charactersListHTML = '<div class="name-image">';
+  let charactersListHTML = '<div class="name-image">';// se desplegan las tarjetas con esta estuctura 
   characters.forEach(function(character) {
     charactersListHTML += '<div class="contenedor"> <h3>' + character.name + ' (' + character.gender + ')</h3>' +
               '<ul>' +'<img src=' + character.img + '/>' +
