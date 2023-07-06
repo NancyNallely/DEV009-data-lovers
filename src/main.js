@@ -1,10 +1,20 @@
 import data from './data.js';
 import peliculas from './data/ghibli/ghibli.js';// Se importa la data de studio ghibli
 
+const botonCuriosidades = document.getElementById("curiosidades");
+if (botonCuriosidades !== null) {
+  botonCuriosidades.addEventListener("click", data.paginaCuriosidades);
+}
+
 const botonVolverPrincipal = document.getElementById("principal");// Se declara la variable botonVolverPrincipal, y se llama al elemento del DOM por su Id.
 if (botonVolverPrincipal !== null) {
   botonVolverPrincipal.addEventListener("click", data.paginaPrincipal);// Se crea un evento al dar click se dirige a la funcion pagina principal
   window.addEventListener("load", mostrarPeliculas(peliculas.films));// Se agrega el evento escucha para que cuando se cargue la pagina films se muestren las cards
+}
+
+const botonVolverFilms = document.getElementById("volverFilms");
+if (botonVolverFilms !== null) {
+  botonVolverFilms.addEventListener("click", data.paginaVolverFilms);
 }
 
 
@@ -70,7 +80,7 @@ function mostrarPeliculas(peliculas) {
     card += '</picture>';
     card += '<div class="card-content">';
     card += '<p class="category category__' + colorFondo + '">' + pelicula.title + '</p><br><br>';
-    card += '<p>' + pelicula.description + '</p>';
+    card += '<p class="description">' + pelicula.description + '</p>';
     card += '</div><!-- .card-content -->';
     card += '<footer>';
     card += '<div class="post-meta">';

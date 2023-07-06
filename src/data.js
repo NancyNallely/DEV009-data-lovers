@@ -4,6 +4,14 @@ const data = {
     window.location.href = "index.html";// Se agrega a la funcion principal la localizacion para direccionar 
   },
 
+  paginaCuriosidades() {
+    window.location.href = "curiosidades.html";// Se agrega a la funcion principal la localizacion para direccionar 
+  },
+
+  paginaVolverFilms() {
+    window.location.href = "animacionesGhibli.html";// Se agrega a la funcion principal la localizacion para direccionar 
+  },
+
   OrdenaPeliculasAz(arrayPeliculas) {
     const peliculasOrdenadas = arrayPeliculas.sort((a, b) => {// Declaramos variable peliculas ordenadas igual al arreglopeliculas se aplica el metodo sort y se le pasa una funcion que contien los parametros a y b
       return a.title.localeCompare(b.title);// regresa el resultado de comparar el titulo a con el titulo b, localeCompare ordena alfabeticamente en el ciclo

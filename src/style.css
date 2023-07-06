@@ -117,7 +117,7 @@ video {
   height: 100%;
 }
 
-body {
+#fondoPaginaPrincipal {
   font-family: "Montserrat";
   background: url(./multimedia/Fondos/fondo4.jpg) no-repeat fixed;
   background-size: cover;
@@ -125,6 +125,56 @@ body {
 
 }
 
+#pagCuriosidades{
+  font-family: "Ysabeau SC";
+  background: url(./multimedia/Fondos/fondo7.jpg) no-repeat fixed;
+  background-size: cover;
+  z-index: -1;
+
+}
+
+.detalles{
+  font-size: 40px;
+  color: rgb(212, 212, 201);
+  display: grid;
+  
+}
+.kiki{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+
+.princesa{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.castillo{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.luciernagas{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.chihiro{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.totoro{
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+}
 /***************************          Header           ********************************/
 
 .tituloPrincipal {
@@ -207,6 +257,21 @@ body {
   background: ghostwhite;
   border-radius: 9rem 5rem 3rem 3rem;
   text-align: center;
+  font-size: 1.3rem;
+  border: none;
+  background-image: url(./multimedia/nubes.gif);
+  background-size: 90%;
+  font-weight: bold;
+  font-family: Ysabeau SC;
+  width: 17rem;
+  height: 5rem;
+
+}
+#curiosidades, #volverFilms {
+  color: #110d03;
+  background: ghostwhite;
+  border-radius: 9rem 5rem 3rem 3rem;
+  text-align: center;
   font-size: 1.4rem;
   border: none;
   background-image: url(./multimedia/nubes.gif);
@@ -218,8 +283,9 @@ body {
 
 }
 
+
 .selector {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: rgb(17, 2, 2);
   font-weight: bold;
   border-radius: 0.4rem 3rem 1rem 6rem;
@@ -292,7 +358,7 @@ footer {
 
 }
 
-p {
+.description {
   font-size: 1.4rem;
   color: rgb(241, 233, 233);
   text-align: justify;

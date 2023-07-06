@@ -16,6 +16,27 @@ describe('data', () => {
   });
 });
 
+describe('data', () => {
+  describe('data.paginaCuriosidades', () => {
+    it('deberia ir a la pagina curiosidades', () => {
+      const mockLocation = { href: 'curiosidades.html' };
+      Object.defineProperty(window, 'location', { value: mockLocation });
+      data.paginaCuriosidades();
+      expect(window.location.href).toBe('curiosidades.html');
+    });
+  });
+});
+
+describe('data', () => {
+  describe('data.paginaVolverFilms', () => {
+    it('deberia regresar a la pagina de films', () => {
+      const mockLocation = { href: 'animacionesGhibli.html' };
+      Object.defineProperty(window, 'location', { value: mockLocation });
+      data.paginaVolverFilms();
+      expect(window.location.href).toBe('animacionesGhibli.html');
+    });
+  });
+});
 
 describe('data', () => {
   describe('data.OrdenaPeliculasAz', () => {
