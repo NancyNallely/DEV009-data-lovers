@@ -2,90 +2,61 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist para solicitar PF](#9-checklist-para-solicitar-pf)
-
+| <p align="center"><img src="Readme%20imagenes/planning.png"></p> | <p align="center"><img src="Readme%20imagenes/search.png"></p> | <p align="center"><img src="Readme%20imagenes/notes.png"></p> | <p align="center"><img src="Readme%20imagenes/javascript.png"></p> | <p align="center"><img src="Readme%20imagenes/algorithm.png"></p> | <p align="center"><img src="Readme%20imagenes/testing.png"></p> | <p align="center"><img src="Readme%20imagenes/web.png"></p> | <p align="center"><img src="Readme%20imagenes/dar-amor.png"></p> |
+| ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ----------------------  | ---------------------- |  
+| [1.Consideraciones generales](#1-consideraciones-generales) | [2.Definicion del proyecto ](#2-preámbulo) | [3.Funcionalidades](#3-funcionalidades) | [4.Boilerplate](#4-boilerplate) | [5.Estructura del Proyecto](#5-Estructura-del-Proyecto) | [6.Pruebas](#6-pruebas) | [7.Visita nuestro sitio web](https://nancynallely.github.io/DEV009-text-analyzer/src/) | [8.Agradecimientos](https://nancynallely.github.io/DEV009-text-analyzer/src/) |
 ***
 
-## 1. Preámbulo
+## 1. Consideraciones generales
 
-Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 millones de terabytes de datos, una cifra sin
-precedentes.
+* Este proyecto se resolvio en duplas.
+* El rango de tiempo estimado para completar el proyecto fue de 3 a 4 Sprints.
+* El proyecto fue entregado subiendo nuestro código a GitHub (commit/push) y la
+  interfaz fue desplegada usando [GitHub Pages](https://pages.github.com/).
 
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
+## 2. Definición del proyecto
 
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por las
-usuarias, al lado derecho.
+En nuestro proyecto se **construyo una _página web_ para visualizar un
+_conjunto (set) de datos_** con tematica de Studio Ghibli, nos presenta una pagina principal
+con con 2 botones que nos dirigen a films y personajes, en films podemos visualizar los poster
+de las peliculas, y podemos filtrar y ordenar la data en diferente orden, por productor y director, ademas un calculo agregado para saber cuantos personajes son en total por pelicula y un espacio adicional con algunas curiosidades de algunas peliculas de studio ghibli.
 
-![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+* Prototipo de baja fidelidad
 
-## 2. Resumen del proyecto
+![Alt text](image.png)
+![Alt text](image-1.png)
 
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
-necesita.
+* Prototipos de alta fidelidad
 
-Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y hacer algún cálculo agregado**. Con cálculo agregado
-nos referimos a distintos cálculos que puedes hacer con la data para mostrar
-información aún más relevante para los usuarios (promedio, el valor máximo
-o mínimo, etc).
+[prototipo cel] (https://www.figma.com/proto/VqlwWW0hBw4QZOF9RtzH5E/Studio-Ghibli?page-id=0%3A1&type=design&node-id=6-109&viewport=351%2C433%2C0.5&scaling=scale-down&starting-point-node-id=1%3A13)
 
-Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
-explores y decidas con qué temática te interesa trabajar. Hemos elegido
-específicamente estos sets de datos porque creemos que se adecúan bien a esta
-etapa de tu aprendizaje.
+[prototipo pc] (https://www.figma.com/proto/9LrVbpGSelbKIuHVXbH8Ix/Untitled?type=design&node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2)
 
-Una vez que definas tu área de interés, buscar entender quién es tu usuario
-y qué necesita saber o ver exactamente; luego podrás construir la interfaz que
-le ayude a interactuar y entender mejor esos datos.
 
-Estos son datos que te proponemos:
+### Historias de Usuario
 
-* [Pokémon](src/data/pokemon/pokemon.json):
-  En este set encontrarás una lista con los 251 Pokémon de la región de Kanto
-  y Johto, junto con sus respectivas estadísticas usadas en el juego
-  [Pokémon GO](http://pokemongolive.com).
-  - [Investigación con jugadores de Pokémon Go](src/data/pokemon/README.md)
+* ![Alt text](image-2.png)
+* ![Alt text](image-3.png)
+* ![Alt text](image-4.png)
+* ![Alt text](image-5.png)
+* ![Alt text](image-6.png)
+* ![Alt text](image-7.png)
+* ![Alt text](image-8.png)
+* ![Alt text](image-9.png)
+* ![Alt text](image-10.png)
+* ![Alt text](image-11.png)
+* ![Alt text](image-12.png)
 
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
-  Este set de datos muestra la lista de campeones en una liga del
-  juego League of Legends (LoL).
-  - [Investigación con jugadores de LoL](src/data/lol/README.md)
 
-* [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
-  Este set nos proporciona la lista de los personajes de la serie Rick and
-  Morty. [API Rick and Morty](https://rickandmortyapi.com).
-  - [Investigación con seguidores de Rick and Morty](src/data/rickandmorty/README.md)
+## 3. Funcionalidades
 
-* [Juegos Olímpicos de Río de Janeiro](src/data/athletes/athletes.json).
-  Este set nos proporciona la lista de los atletas que ganaron medallas en las
-  olímpiadas de Río de Janeiro.
-  - [Investigación con interesados en juegos olímpicos de Río de Janeiro](src/data/athletes/README.md)
+Nuestro proyecto presenta una pagina web con tematica de studio ghibli.
 
-* [Studio Ghibli](src/data/ghibli/ghibli.json).
-  En este set encontrarás una lista de las animaciones y sus personajes del
-  [Studio Ghibli](https://ghiblicollection.com/).
-  - [Investigación con seguidores de las animaciones del Studio Ghibli](src/data/ghibli/README.md)
+El listado de funcionalidades es el siguiente:
 
-El objetivo principal de este proyecto es que aprendas a diseñar y construir una
-interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
-usuario necesita.
 
-## 3. Objetivos de aprendizaje
+
+## 5. Estructura del proyecto
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
@@ -280,12 +251,6 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Pruebas con Usuarios 1 — ¿Qué, cuándo y para qué testeamos?](https://eugeniacasabona.medium.com/pruebas-con-usuarios-1-qu%C3%A9-cu%C3%A1ndo-y-para-qu%C3%A9-testeamos-7c3a89b4b5e7)
 </p></details>
 
-## 4. Consideraciones generales
-
-* Este proyecto se debe resolver en duplas.
-* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
