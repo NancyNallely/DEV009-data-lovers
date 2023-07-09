@@ -2,14 +2,14 @@
 
 ## Índice
 
-[1.Consideraciones generales](#1-consideraciones-generales)  
-[2.Definicion del proyecto](#2-Definicion)
-[3.Funcionalidades](#3-funcionalidades)
-[4.Boilerplate](#4-Boilerplate)
-[5.Estructura del Proyecto](#5-Estructura-del-Proyecto)
-[6.Pruebas](#6-pruebas)
-[7.Visita nuestro sitio web](#7-Visitweb)
-[8.Agradecimientos](#8-Agradecimientos)
+* [1. Consideraciones generales](#1-consideraciones-generales)  
+* [2. Definicion del proyecto](#2-Definicion)
+* [3. Funcionalidades](#3-funcionalidades)
+* [4. Boilerplate](#4-Boilerplate)
+* [5. Estructura del Proyecto](#5-Estructura-del-Proyecto)
+* [6. Pruebas](#6-pruebas)
+* [7. Visita nuestro sitio web](#7-Visitweb)
+* [8. Agradecimientos](#8-Agradecimientos)
 ***
 
 ## 1. Consideraciones generales
@@ -139,8 +139,8 @@ para lo cual se uso el siguiente codigo:
 9. La página de personajes tiene un botón de regreso a la página principal y otros botones con titulos de peliculas a los cuales se les dio funcionalidad con el siguiente código:
 
 ![Alt text](image-25.png)
+![Alt text](image-23.png)
 
-![botones](/DEV009-data-lovers/image-33.png)
 
 
 ## 4. Boilerplate
@@ -215,7 +215,7 @@ como toda la configuración de dependencias:
 - [ ] **Pruebas unitarias (unit tests)**
 
 
-# Control de Versiones (Git y GitHub)
+### Control de Versiones (Git y GitHub)
 
 - [ ] **Git: Instalación y configuración**
 
@@ -243,14 +243,14 @@ Se incluyen pruebas con el uso de jest test.
 
 * npm run pretest
 
-* ![pretest](./src/multimedia/pretest.png)"npm run pretest"
-
+![Alt text](image-26.png)
+ 
 
 * npm test
 
-* ![test](./src/multimedia/test.png)"npm test"
+![Alt text](image-29.png)
+![Alt text](image-30.png)
 
-* ![test](./src/multimedia/test2.png)"npm test"
 
 
 ## 7. Visita nuestro sitio web
