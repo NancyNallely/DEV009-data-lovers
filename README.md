@@ -100,8 +100,7 @@ El listado de funcionalidades es el siguiente:
 
 para lo cual se uso el siguiente codigo:
 
-![Alt text](image-26.png)
-![Alt text](image-23.png)
+![Alt text](image-31.png)
 
 2. Despues presentamos la página de films.
 
