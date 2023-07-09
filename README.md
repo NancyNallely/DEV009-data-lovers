@@ -2,9 +2,14 @@
 
 ## Índice
 
-| <p align="center"><img src="./coverage/planning.png"></p> | <p align="center"><img src="./coverage/search.png"></p> | <p align="center"><img src="./coverage/notes.png"></p> | <p align="center"><img src="./coverage/javascript.png"></p> | <p align="center"><img src="./coverage/algorithm.png"></p> | <p align="center"><img src="./coverage/testing.png"></p> | <p align="center"><img src="./coverage/web.png"></p> | <p align="center"><img src="./coverage/dar-amor.png"></p> |
-| ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ----------------------  | ---------------------- |  
-| [1.Consideraciones generales](#1-consideraciones-generales) | [2.Definicion del proyecto ](#2-preámbulo) | [3.Funcionalidades](#3-funcionalidades) | [4.Boilerplate](#4-Boilerplate) | [5.Estructura del Proyecto](#5-Estructura-del-Proyecto) | [6.Pruebas](#6-pruebas) | [7.Visita nuestro sitio web](https://nancynallely.github.io/DEV009-text-analyzer/src/) | [8.Agradecimientos](https://nancynallely.github.io/DEV009-text-analyzer/src/) |
+[1.Consideraciones generales](#1-consideraciones-generales)  
+[2.Definicion del proyecto](#2-Definicion)
+[3.Funcionalidades](#3-funcionalidades)
+[4.Boilerplate](#4-Boilerplate)
+[5.Estructura del Proyecto](#5-Estructura-del-Proyecto)
+[6.Pruebas](#6-pruebas)
+[7.Visita nuestro sitio web](#7-Visitweb)
+[8.Agradecimientos](#8-Agradecimientos)
 ***
 
 ## 1. Consideraciones generales
@@ -66,7 +71,7 @@ Cada animación tiene sus personajes, para nuestras usuarias es importante saber
 
 Cada que las usuarias quieran entrar al sitio web y pasar un momento divertido y entretenido con información releevante para ellas como fanaticas de studio ghibli.
 
-#### Organización del Trabajo
+### Organización del Trabajo
 
 ### Historias de Usuario
 
@@ -103,6 +108,7 @@ para lo cual se uso el siguiente codigo:
 ![Alt text](image-14.png)
 
 
+
 3. La página films tiene filtros para que el usuario pueda interactuar con la página como mejor le parezca, esta la parte de ordenar por, para la cual se utilizo el siguiente código para su funcionalidad en js:
 
 ![Alt text](image-18.png)
@@ -134,7 +140,7 @@ para lo cual se uso el siguiente codigo:
 
 ![Alt text](image-25.png)
 
-![Alt text](image-31.png)
+![botones](/DEV009-data-lovers/image-33.png)
 
 
 ## 4. Boilerplate
@@ -146,7 +152,7 @@ El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias:
 
 ```text
-.
+
 ├── EXTRA.md
 ├── README.md
 ├── package.json
@@ -162,10 +168,11 @@ como toda la configuración de dependencias:
 |  ├── main.js
 |  └── style.css
 └── test
-   └── data.spec.js
+└── data.spec.js
+```
 
+## 5. Estructura del Proyecto
 
-## 5. Estructura del proyecto
 
 ### HTML
 
@@ -208,7 +215,7 @@ como toda la configuración de dependencias:
 - [ ] **Pruebas unitarias (unit tests)**
 
 
-### Control de Versiones (Git y GitHub)
+# Control de Versiones (Git y GitHub)
 
 - [ ] **Git: Instalación y configuración**
 
@@ -221,11 +228,7 @@ como toda la configuración de dependencias:
 - [ ] **GitHub: Despliegue con GitHub Pages**
 
 
-### Pruebas unitarias
-
-Se incluyen pruebas unitarias correspondientes a las funcionalidades de data.js.
-
-#### Herramientas
+### Herramientas
 
 * [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
@@ -238,16 +241,16 @@ Se incluyen pruebas unitarias correspondientes a las funcionalidades de data.js.
 
 Se incluyen pruebas con el uso de jest test.
 
-Primero npm run pretest
+* npm run pretest
 
-![pretest](./src/multimedia/pretest.png)
+* ![pretest](./src/multimedia/pretest.png)"npm run pretest"
 
 
-También npm test
+* npm test
 
-![test](./src/multimedia/test.png)
+* ![test](./src/multimedia/test.png)"npm test"
 
-![test](./src/multimedia/test2.png)
+* ![test](./src/multimedia/test2.png)"npm test"
 
 
 ## 7. Visita nuestro sitio web
