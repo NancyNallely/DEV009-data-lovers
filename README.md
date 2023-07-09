@@ -2,9 +2,9 @@
 
 ## Índice
 
-| <p align="center"><img src="Readme%20imagenes/planning.png"></p> | <p align="center"><img src="Readme%20imagenes/search.png"></p> | <p align="center"><img src="Readme%20imagenes/notes.png"></p> | <p align="center"><img src="Readme%20imagenes/javascript.png"></p> | <p align="center"><img src="Readme%20imagenes/algorithm.png"></p> | <p align="center"><img src="Readme%20imagenes/testing.png"></p> | <p align="center"><img src="Readme%20imagenes/web.png"></p> | <p align="center"><img src="Readme%20imagenes/dar-amor.png"></p> |
+| <p align="center"><img src="./coverage/planning.png"></p> | <p align="center"><img src="./coverage/search.png"></p> | <p align="center"><img src="./coverage/notes.png"></p> | <p align="center"><img src="./coverage/javascript.png"></p> | <p align="center"><img src="./coverage/algorithm.png"></p> | <p align="center"><img src="./coverage/testing.png"></p> | <p align="center"><img src="./coverage/web.png"></p> | <p align="center"><img src="./coverage/dar-amor.png"></p> |
 | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ----------------------  | ---------------------- |  
-| [1.Consideraciones generales](#1-consideraciones-generales) | [2.Definicion del proyecto ](#2-preámbulo) | [3.Funcionalidades](#3-funcionalidades) | [4.Consideraciones técnicas](#4-Consideraciones técnicas) | [5.Estructura del Proyecto](#5-Estructura-del-Proyecto) | [6.Pruebas](#6-pruebas) | [7.Visita nuestro sitio web](https://nancynallely.github.io/DEV009-text-analyzer/src/) | [8.Agradecimientos](https://nancynallely.github.io/DEV009-text-analyzer/src/) |
+| [1.Consideraciones generales](#1-consideraciones-generales) | [2.Definicion del proyecto ](#2-preámbulo) | [3.Funcionalidades](#3-funcionalidades) | [4.Boilerplate](#4-Boilerplate) | [5.Estructura del Proyecto](#5-Estructura-del-Proyecto) | [6.Pruebas](#6-pruebas) | [7.Visita nuestro sitio web](https://nancynallely.github.io/DEV009-text-analyzer/src/) | [8.Agradecimientos](https://nancynallely.github.io/DEV009-text-analyzer/src/) |
 ***
 
 ## 1. Consideraciones generales
@@ -95,8 +95,8 @@ El listado de funcionalidades es el siguiente:
 
 para lo cual se uso el siguiente codigo:
 
-    ![Alt text](image-26.png)
-    ![Alt text](image-23.png)
+![Alt text](image-26.png)
+![Alt text](image-23.png)
 
 2. Despues presentamos la página de films.
 
@@ -126,7 +126,7 @@ para lo cual se uso el siguiente codigo:
 
 ![Alt text](image-22.png)
 
-8. Despues tenemos la p[agina de personajes.
+8. Despues tenemos la pagina de personajes.
 
 ![Alt text](image-24.png)
 
@@ -134,8 +134,10 @@ para lo cual se uso el siguiente codigo:
 
 ![Alt text](image-25.png)
 
+![Alt text](image-31.png)
 
-## 4. Consideraciones técnicas
+
+## 4. Boilerplate
 
 La lógica del proyecto fue implementada completamente en JavaScript
 (ES6), HTML y CSS. 
@@ -238,11 +240,14 @@ Se incluyen pruebas con el uso de jest test.
 
 Primero npm run pretest
 
-![Alt text](image-29.png)
+![pretest](./src/multimedia/pretest.png)
+
 
 También npm test
 
-![Alt text](image-30.png)
+![test](./src/multimedia/test.png)
+
+![test](./src/multimedia/test2.png)
 
 
 ## 7. Visita nuestro sitio web
