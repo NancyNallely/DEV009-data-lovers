@@ -15,15 +15,13 @@
   font-family: "Ysabeau SC";
   background: url(./multimedia/Fondos/fondo4.jpg) no-repeat fixed;
   background-size: cover;
-  z-index: -1;
 
 }
 /*Se edita el body de la pag curiosidades por el nombre de su clase*/
 #pagCuriosidades{
   font-family: "Ysabeau SC";
-  background: url(./multimedia/Fondos/fondo6.jpg) no-repeat fixed;
+  background: url(./multimedia/Fondos/fondo9.jpg) no-repeat fixed;
   background-size: cover;
-  z-index: -1;
 
 }
 /*Se editan los p con las curiosidades por el nombre de su clase*/
@@ -148,7 +146,6 @@
 /*Se edita el header por el nombre de su clase, siendo el contenedor del titulo*/
 .temaPeli {
   display: flex;
-  justify-content: space-evenly;
   justify-content: center;
 }
 
@@ -249,9 +246,8 @@ img {
   height: auto;
 }
 
-/*Se editan todas las img que tengan el nombre de esta clase imegen*/
+/*Se editan todas las img que tengan el nombre de esta clase imagen*/
 .imagen img {
-  fill: #c7c4c4;
   padding: 1.5rem;
   height: 300px;
 }
